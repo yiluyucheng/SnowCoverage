@@ -123,11 +123,15 @@ def main():
     save_image = argv[2] #'temp.pdf'
     
     device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
+    '''
     net = UNet(num_classes=3, input_channels=4).double()
     net = net.to(device)
     net.load_state_dict(torch.load("./models/unet_4bands.pth"))
-
-    bands = [2, 11, 4, 10]
+    '''
+    net = torch.load("./models/unet_4bands.pth")
+    bands_dict = dict(zip(['B1', 'B2', 'B3', 'B4', 'B5', 'B6', 'B7', 'B8', 'B8A', 'B9', 'B11', 'B12'], [i for i in range(1, 13)]))
+    bands = [bands_dict[k] for k in ['B2', 'B11', 'B4', 'B9']]
+    #bands = [i for i in range(1, 13)]
     _, preds = make_predictions(net, in_file, bands, device)  
     visualise_prediction(in_file, preds, save_image)  
     
