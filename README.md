@@ -8,9 +8,10 @@ $ git clone https://github.com/yiluyucheng/SnowCoverage
 $ cd SnowCoverage
 $ pip install -r requirements.txt
 ```
+Replace the dummpy model file './models/unet_4bands.pth' with valid model file.
 
 ## How to run:
-First copy the vaild model file 'unet_4bands.pth' into './models/' directory, then use following code to make classifications:
+Use the following code to make classifications:
 ```shell
 $ python make_prediction.py ./test_data/20200713T103031_20200713T103026_T33VWH.tif save_output_image.pdf
 ```
