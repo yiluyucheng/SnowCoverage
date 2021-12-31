@@ -13,5 +13,10 @@ Replace the dummpy model file './models/unet_4bands.pth' with valid model file.
 ## How to run:
 Use the following code to make classifications:
 ```shell
-$ python make_prediction.py ./test_data/20200713T103031_20200713T103026_T33VWH.tif save_output_image.pdf
+$ python make_prediction.py ./test_data/20200804T223709_20200804T223712_T59GLM.tif save_output_image.pdf
 ```
+
+## Result:
+
+
+<img width="640" src="https://github.com/yiluyucheng/SnowCoverage/blob/main/test_data/test_prediction.png">
