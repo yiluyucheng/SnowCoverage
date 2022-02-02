@@ -8,6 +8,10 @@ $ git clone https://github.com/yiluyucheng/SnowCoverage
 $ cd SnowCoverage
 $ pip install -r requirements.txt
 ```
+Download the model file via Google Drive: 
+[unet_4bands.pth](https://drive.google.com/file/d/1gRl0o1_7JirAbjkZ7TozPgOj7QwtRiX5/view?usp=sharing)
+
+
 Replace the dummpy model file './models/unet_4bands.pth' with valid model file.
 
 ## How to run:
