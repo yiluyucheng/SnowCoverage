@@ -1,5 +1,5 @@
 # SnowCoverage
-Snow Coverage Mapping by Learning from Sentinel-2 Satellite Multispectral Images via Machine/Deep Learning
+Snow Coverage Mapping by Learning from Sentinel-2 Satellite Multispectral Images via Machine Learning
 
 ## Install
 Python>=3.8.0 is required with all requirements.txt installed including PyTorch>=1.7:
