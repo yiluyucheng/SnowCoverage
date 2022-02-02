@@ -16,7 +16,12 @@ Use the following code to make classifications:
 $ python make_prediction.py ./test_data/20200804T223709_20200804T223712_T59GLM.tif save_output_image.pdf
 ```
 
-## Result:
-
+### Prediction result:
 
 <img width="640" src="https://github.com/yiluyucheng/SnowCoverage/blob/main/test_data/test_prediction.png">
+
+
+## Citation
+
+If you plan to use this dataset or feel this paper is useful for your publication, please cite the following publication to support the work:
+[Wang, Y.; Su, J.; Zhai, X.; Meng, F.; Liu, C.(2021). Snow Coverage Mapping by Learning from Sentinel-2 Satellite Multispectral Images via Machine Learning. *Remote Sensing*](https://github.com/yiluyucheng/SnowCoverage/blob/main/Ref_Paper.pdf)
